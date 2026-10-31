@@ -1,0 +1,19 @@
+{
+  "name": "appkade",
+  "owner": {
+    "name": "AppKade",
+    "email": "support@appkade.lk"
+  },
+  "metadata": {
+    "description": "AppKade skills for AI coding assistants: list an app on AppKade and add its live badge."
+  },
+  "plugins": [
+    {
+      "name": "appkade",
+      "source": "./",
+      "description": "List your app on AppKade, the marketplace for software made by Sri Lankan developers, and add its live badge to your site.",
+      "homepage": "https://www.appkade.lk/makers",
+      "strict": false
+    }
+  ]
+}
