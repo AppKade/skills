@@ -18,4 +18,5 @@ is in `AnukaMithara/appkade-prod`.
   `app/new-listing/route.ts`, `lib/validation.ts`, `lib/share.ts`). Check them there before changing a skill.
 - A skill never tells an assistant to sign in, create an account, fill in or submit AppKade's forms, or invent facts,
   numbers or claims about the developer's app.
-- Run `claude plugin validate .` after changing `.claude-plugin/marketplace.json`.
+- Run `claude plugin validate .` after changing `.claude-plugin/`, and raise `version` in `plugin.json` with every
+  change to a skill: Claude's plugin directory publishes each new version from `main`.
