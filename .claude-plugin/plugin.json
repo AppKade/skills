@@ -1,0 +1,11 @@
+{
+  "name": "appkade",
+  "displayName": "AppKade",
+  "version": "1.0.0",
+  "description": "List your app on AppKade, the marketplace for software made by Sri Lankan developers, and add its live badge to your website or README.",
+  "author": { "name": "AppKade", "email": "support@appkade.lk", "url": "https://www.appkade.lk" },
+  "homepage": "https://www.appkade.lk/makers",
+  "repository": "https://github.com/AppKade/skills",
+  "license": "MIT",
+  "keywords": ["appkade", "sri-lanka", "marketplace", "listing", "badge"]
+}

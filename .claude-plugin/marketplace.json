@@ -12,8 +12,7 @@
       "name": "appkade",
       "source": "./",
       "description": "List your app on AppKade, the marketplace for software made by Sri Lankan developers, and add its live badge to your site.",
-      "homepage": "https://www.appkade.lk/makers",
-      "strict": false
+      "homepage": "https://www.appkade.lk/makers"
     }
   ]
 }

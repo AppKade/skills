@@ -32,6 +32,14 @@ Then ask your assistant: "List this app on AppKade", or "Add the AppKade badge t
 Without installing anything, point your assistant at
 https://www.appkade.lk/skills/list-on-appkade/SKILL.md.
 
+## What the skills do, and don't
+
+The skills are instructions only: no code, scripts, hooks or MCP servers, and nothing is installed or run on your
+machine. While following them, your assistant reads your own project files and may open public pages on
+www.appkade.lk and your app's own public link. They send nothing to AppKade or anyone else, never sign in or
+submit forms for you, and AppKade collects no data through them. AppKade's privacy policy:
+https://www.appkade.lk/privacy
+
 ## Questions
 
 support@appkade.lk · https://www.appkade.lk/makers
