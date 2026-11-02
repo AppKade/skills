@@ -1,7 +1,7 @@
 {
   "name": "appkade",
   "displayName": "AppKade",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "List your app on AppKade, the marketplace for software made by Sri Lankan developers, and add its live badge to your website or README.",
   "author": { "name": "AppKade", "email": "support@appkade.lk", "url": "https://www.appkade.lk" },
   "homepage": "https://www.appkade.lk/makers",
