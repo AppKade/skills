@@ -5,7 +5,8 @@ description: List the app in this project on AppKade (www.appkade.lk), the marke
 
 # List this app on AppKade
 
-AppKade (https://www.appkade.lk) lists apps, AI models and datasets made by Sri Lankan developers. Listing is free.
+AppKade (https://www.appkade.lk) lists apps, AI models and datasets made by Sri Lankan developers. Apps include
+plugins and add-ons, developer tools and APIs, and devices that come with their own software. Listing is free.
 A person at AppKade reviews every listing before it goes live. Buyers contact the developer or visit their website;
 AppKade doesn't take payments.
 
