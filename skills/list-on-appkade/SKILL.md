@@ -20,7 +20,8 @@ AppKade starts a listing from one public link and fills in the name, description
 pricing from it. Look in the project (README, package metadata, store config, site config, deployment settings) for,
 in this order:
 
-1. Its Google Play, App Store or Chrome Web Store page.
+1. Its Google Play, App Store or Chrome Web Store page, or for a plugin its WordPress.org plugin page or Visual
+   Studio Marketplace page.
 2. Its live website.
 3. Its GitHub repository, only if the repository is public.
 
