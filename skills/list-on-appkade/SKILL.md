@@ -48,6 +48,10 @@ Write these out for the user to paste in, in plain text, with no HTML or Markdow
 - **Tagline:** one line, under 120 characters, saying what it does for whom.
 - **Lowest price in Sri Lankan rupees (LKR)**, with per month, per year or once, if it's paid.
 - **Languages** it works in (English, Sinhala, Tamil).
+- **Every place to get it:** each official store or download page you found in the project (Google Play, App Store,
+  Huawei AppGallery, Microsoft Store, its own download page), the main one first. The user adds them under **Where to
+  get it**, up to 8, with **Add another place to get it**. Name a page that isn't a store by what it is, like "Windows
+  installer", and say if one is a beta or coming soon.
 
 Use only facts from the project or the user. Don't invent features, numbers, customers, ratings or awards; AppKade's
 review rejects claims it can't check (https://www.appkade.lk/listing-policy). Before it goes live AppKade also asks
