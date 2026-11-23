@@ -46,8 +46,13 @@ Write these out for the user to paste in, in plain text, with no HTML or Markdow
 
 - **What is it?** 3 to 40 characters, like "POS system" or "Expense tracker".
 - **Tagline:** one line, under 120 characters, saying what it does for whom.
-- **Lowest price in Sri Lankan rupees (LKR)**, with per month, per year or once, if it's paid.
+- **Lowest price in Sri Lankan rupees (LKR)**, with per month, per year or once, if it's paid; if prices vary,
+  what they depend on (**Price on request**).
 - **Languages** it works in (English, Sinhala, Tamil).
+- **Works without the internet?** Yes, partly or no, and one line on what works offline.
+- **How customers get help:** phone, WhatsApp, email, live chat or visits, and in which languages.
+
+The price, languages, offline and help details go in the listing's **What buyers ask** section.
 - **Every place to get it:** each official store or download page you found in the project (Google Play, App Store,
   Huawei AppGallery, Microsoft Store, its own download page), the main one first. The user adds them under **Where to
   get it**, up to 8, with **Add another place to get it**. Name a page that isn't a store by what it is, like "Windows
