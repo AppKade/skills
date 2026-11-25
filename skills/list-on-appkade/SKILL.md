@@ -25,6 +25,8 @@ in this order:
 2. Its live website.
 3. Its GitHub repository, only if the repository is public.
 
+For an AI model, the best link is its Hugging Face page, then its public GitHub repository or its own site.
+
 Use only a link you found in the project or that the user gave you. If you find none, or more than one fits, ask.
 Never guess or make up a link.
 
@@ -62,6 +64,30 @@ Use only facts from the project or the user. Don't invent features, numbers, cus
 review rejects claims it can't check (https://www.appkade.lk/listing-policy). Before it goes live AppKade also asks
 for the developer's district and legal name or company, privately; the user adds those themselves.
 
+### For an AI model
+
+Gather these too, from the model card, README or config in the project, or from the user. A Hugging Face link fills
+many of them in when AppKade reads it, so check what it found rather than retyping it. Leave a field empty rather than
+guess.
+
+- **Something buyers can check:** a demo under **Try it** (such as a Hugging Face Space), a **Sample link** to example
+  outputs, or model files buyers can download from the project page. If the files download from the project page, the
+  user ticks **Model files can be downloaded from the project page**; that counts instead of a demo. The listing's
+  main button then reads "Download from Hugging Face" when the project page is on huggingface.co, "Download from
+  GitHub" when it's on github.com, and "Download the model" otherwise.
+- **Runs with:** up to 4 of LM Studio, Ollama, llama.cpp, Hugging Face Transformers, ONNX Runtime or Other, only those
+  the project shows it runs in.
+- **Context length (tokens):** a whole number, from the model's own config or card.
+- **What it needs to run:** one line, 3 to 80 characters, such as the memory or GPU it needs.
+- **Trained from scratch**, if it was. Otherwise its **Base model** and that model's licence; a model can't have both.
+- **Trained on:** one line, 3 to 200 characters, saying what data it was trained on.
+- **Known limits:** one paragraph, 3 to 400 characters: what it isn't for and what it gets wrong, such as making up
+  facts. Don't claim accuracy that hasn't been measured.
+
+The developer also confirms that the model wasn't trained on private personal data and that nothing shipped with it
+contains personal data or secrets. If you see API keys, passwords, access tokens or personal data in the files, tell
+the user so they can remove them first.
+
 ## 4. Give the user one link to open
 
 Give the user this address, with their link URL-encoded:
@@ -74,6 +100,10 @@ It opens AppKade's new app form with that link filled in, after they sign in (Go
 same step creates an account). There they press **Read link**, tick what to keep, then press
 **Create listing with these details**, add the details from step 3, and send the listing for review. AppKade emails
 them the result.
+
+For an AI model, give them https://www.appkade.lk/dashboard/apps/new?kind=model instead. There they paste the link
+from step 1 under **Already published? Start from a link**, press **Read link** and then
+**Create listing with these details**, and add the details from step 3.
 
 ## 5. After the listing is live: add the badge
 
