@@ -20,12 +20,10 @@ AppKade starts a listing from one public link and fills in the name, description
 pricing from it. Look in the project (README, package metadata, store config, site config, deployment settings) for,
 in this order:
 
-1. Its Google Play, App Store or Chrome Web Store page, or for a plugin its WordPress.org plugin page or Visual
-   Studio Marketplace page.
+1. Its Google Play, App Store or Chrome Web Store page, for a plugin its WordPress.org or Visual Studio Marketplace
+   page, or for an AI model its Hugging Face page.
 2. Its live website.
 3. Its GitHub repository, only if the repository is public.
-
-For an AI model, the best link is its Hugging Face page, then its public GitHub repository or its own site.
 
 Use only a link you found in the project or that the user gave you. If you find none, or more than one fits, ask.
 Never guess or make up a link.
@@ -66,27 +64,10 @@ for the developer's district and legal name or company, privately; the user adds
 
 ### For an AI model
 
-Gather these too, from the model card, README or config in the project, or from the user. A Hugging Face link fills
-many of them in when AppKade reads it, so check what it found rather than retyping it. Leave a field empty rather than
-guess.
-
-- **Something buyers can check:** a demo under **Try it** (such as a Hugging Face Space), a **Sample link** to example
-  outputs, or model files buyers can download from the project page. If the files download from the project page, the
-  user ticks **Model files can be downloaded from the project page**; that counts instead of a demo. The listing's
-  main button then reads "Download from Hugging Face" when the project page is on huggingface.co, "Download from
-  GitHub" when it's on github.com, and "Download the model" otherwise.
-- **Runs with:** up to 4 of LM Studio, Ollama, llama.cpp, Hugging Face Transformers, ONNX Runtime or Other, only those
-  the project shows it runs in.
-- **Context length (tokens):** a whole number, from the model's own config or card.
-- **What it needs to run:** one line, 3 to 80 characters, such as the memory or GPU it needs.
-- **Trained from scratch**, if it was. Otherwise its **Base model** and that model's licence; a model can't have both.
-- **Trained on:** one line, 3 to 200 characters, saying what data it was trained on.
-- **Known limits:** one paragraph, 3 to 400 characters: what it isn't for and what it gets wrong, such as making up
-  facts. Don't claim accuracy that hasn't been measured.
-
-The developer also confirms that the model wasn't trained on private personal data and that nothing shipped with it
-contains personal data or secrets. If you see API keys, passwords, access tokens or personal data in the files, tell
-the user so they can remove them first.
+A Hugging Face link fills most of these; check them, and leave unknowns empty. Buyers need something to check: **Try it** (a demo), a **Sample link**, or **Model files can be downloaded from the project page** (then the
+main button reads "Download from Hugging Face" or GitHub). Also: **Runs with**, **Context length (tokens)**, **What it
+needs to run**, **Trained from scratch** or its **Base model** (not both), **Trained on** and **Known limits** (what
+it gets wrong; no unmeasured accuracy claims). Tell the user if the files hold keys, passwords or personal data.
 
 ## 4. Give the user one link to open
 
@@ -101,9 +82,8 @@ same step creates an account). There they press **Read link**, tick what to keep
 **Create listing with these details**, add the details from step 3, and send the listing for review. AppKade emails
 them the result.
 
-For an AI model, give them https://www.appkade.lk/dashboard/apps/new?kind=model instead. There they paste the link
-from step 1 under **Already published? Start from a link**, press **Read link** and then
-**Create listing with these details**, and add the details from step 3.
+For an AI model, give https://www.appkade.lk/dashboard/apps/new?kind=model instead and have them paste the link under
+**Already published? Start from a link**.
 
 ## 5. After the listing is live: add the badge
 
