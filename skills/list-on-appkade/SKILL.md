@@ -77,13 +77,13 @@ Give the user this address, with their link URL-encoded:
 https://www.appkade.lk/new-listing?link=<the link from step 1>
 ```
 
-It opens AppKade's new app form with that link filled in, after they sign in (Google, GitHub or an email link; the
+It opens AppKade's new listing form with that link filled in, after they sign in (Google, GitHub or an email link; the
 same step creates an account). There they press **Read link**, tick what to keep, then press
 **Create listing with these details**, add the details from step 3, and send the listing for review. AppKade emails
 them the result.
 
-For an AI model, give https://www.appkade.lk/dashboard/apps/new?kind=model instead and have them paste the link under
-**Already published? Start from a link**.
+A Hugging Face link opens the AI model or dataset form. For one on GitHub or its own site, add `&kind=model` or
+`&kind=dataset`.
 
 ## 5. After the listing is live: add the badge
 
