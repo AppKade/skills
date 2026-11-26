@@ -20,8 +20,8 @@ AppKade starts a listing from one public link and fills in the name, description
 pricing from it. Look in the project (README, package metadata, store config, site config, deployment settings) for,
 in this order:
 
-1. Its Google Play, App Store or Chrome Web Store page, or for a plugin its WordPress.org plugin page or Visual
-   Studio Marketplace page.
+1. Its Google Play, App Store or Chrome Web Store page, for a plugin its WordPress.org or Visual Studio Marketplace
+   page, or for an AI model its Hugging Face page.
 2. Its live website.
 3. Its GitHub repository, only if the repository is public.
 
@@ -62,6 +62,13 @@ Use only facts from the project or the user. Don't invent features, numbers, cus
 review rejects claims it can't check (https://www.appkade.lk/listing-policy). Before it goes live AppKade also asks
 for the developer's district and legal name or company, privately; the user adds those themselves.
 
+### For an AI model
+
+A Hugging Face link fills most of these; check them, and leave unknowns empty. Buyers need something to check: **Try it** (a demo), a **Sample link**, or **Model files can be downloaded from the project page** (then the
+main button reads "Download from Hugging Face" or GitHub). Also: **Runs with**, **Context length (tokens)**, **What it
+needs to run**, **Trained from scratch** or its **Base model** (not both), **Trained on** and **Known limits** (what
+it gets wrong; no unmeasured accuracy claims). Tell the user if the files hold keys, passwords or personal data.
+
 ## 4. Give the user one link to open
 
 Give the user this address, with their link URL-encoded:
@@ -74,6 +81,9 @@ It opens AppKade's new app form with that link filled in, after they sign in (Go
 same step creates an account). There they press **Read link**, tick what to keep, then press
 **Create listing with these details**, add the details from step 3, and send the listing for review. AppKade emails
 them the result.
+
+For an AI model, give https://www.appkade.lk/dashboard/apps/new?kind=model instead and have them paste the link under
+**Already published? Start from a link**.
 
 ## 5. After the listing is live: add the badge
 
